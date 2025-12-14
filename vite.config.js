@@ -1,0 +1,7 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/Rishi07J.github.io/', // Replace 'quantum-portfolio' with your repo name
+})
