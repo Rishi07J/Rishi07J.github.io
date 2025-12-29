@@ -7,7 +7,7 @@ export default function QuantumPortfolio() {
   const [terminalText, setTerminalText] = useState('');
   const [selectedProject, setSelectedProject] = useState(null);
   
-  const fullText = "$ init --ai-engineer\n> Rishi Joshi\n> Building intelligent systems...";
+  const fullText = "$ init --software-engineer\n> Rishi Joshi\n> Building intelligent systems...";
   
   useEffect(() => {
     let index = 0;
